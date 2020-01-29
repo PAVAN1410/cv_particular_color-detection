@@ -14,7 +14,7 @@ cv2.createTrackbar("uh","Tracking",255,255,nothing)
 cv2.createTrackbar("us","Tracking",255,255,nothing)
 cv2.createTrackbar("uv","Tracking",255,255,nothing)
 while True:        
-   #frame=cv2.imread(r'C:\Users\nanin\Desktop\opencv\opencv-master\samples\data\smarties.png') for still picture
+   #frame=cv2.imread(r'C:\Users\smarties.png') for still picture
     _,frame=cap.read(0)
     hsv=cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
     lh=cv2.getTrackbarPos('lh','Tracking')
